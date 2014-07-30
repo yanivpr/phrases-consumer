@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Babbel Phrases API Consumer App
 
-Things you may want to cover:
+# Usage:
 
-* Ruby version
+The Api should run localhost:3000
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The Api-Consumer can run on localhost:3001 for example
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+# Notes
+
+This is a minimal rails app, no specs, no error handling, etc.
