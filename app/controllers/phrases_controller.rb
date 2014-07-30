@@ -14,7 +14,10 @@ class PhrasesController < ApplicationController
 
   def append
     phrase = params[:phrase]
-    ApiClient.new.append phrase
+    result = ApiClient.new.append phrase
+    puts result
+
+    render json: :ok
   end
 
 end

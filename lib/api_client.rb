@@ -12,8 +12,8 @@ class ApiClient
   end
 
   def append(phrase)
-    api_url = "#{url('append')}"
-    response = HTTParty.post(api_url)
+    url = "#{api_url('append')}"
+    HTTParty.post(url, basic_auth: auth, body: { text: phrase } )
   end
 
   private
